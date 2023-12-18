@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport"content="with=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University website</title>
+    <link rel="stylesheet"href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha384-......" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hedvig+Letters+Sans&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+<link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="pictures/logo.png"> </a>
+            <div class="nav-links" id="nav_links">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                
+                <ul>
+                    <li><a href="">home</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">COURSE</a></li>
+                    <li><a href="">ACHIVEMENTS</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+                
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>ABOUT US</h1>
+        
+
+     <!----javasricpt for toogle menue-->
+       
+    </section>
+
+ <!----About Us Content-->
+ <section class="about-us">
+    <div class = "row">
+        <div class="about-col">
+         <h1>WE ARE KARACHI'S BEST UNIVERSITY</h1>
+         <p>Academic Excellence: Our university in Karachi is synonymous with academic excellence, boasting a faculty of distinguished scholars committed to delivering high-quality education across diverse disciplines.
+           Cutting-Edge Facilities: With state-of-the-art facilities, our institution provides students an unparalleled learning environment, equipped with modern technology and resources to foster innovation.Diverse Programs: Offering a comprehensive range of academic programs, we cater to the diverse needs and aspirations of our student body, ensuring a well-rounded education that prepares them for real-world challenges.</p>
+       <a href=""class="hero-btn red-btn">EXPLORE NOW</a>
+        </div>
+        <div class="about-col">
+           <img src="pictures/people staring.jpg">     
+        </div>
+    </div>
+ </section>
+
+    
+        </section>
+         
+            <!-- footer -->
+           <section class="footer">
+    <h4>ABOUT US</h4>
+    <p>Welcome to our esteemed university, where excellence meets innovation. At the heart of our academic community, we are dedicated to nurturing minds, fostering creativity, and instilling a passion for lifelong learning. With a commitment to academic rigor, state-of-the-art facilities, and a supportive environment, our university stands as a beacon of education, shaping future leaders and empowering individuals to make a lasting impact on the world.</p>
+    <div class="icons">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-linkedin"></i>
+    </div>
+    <p>Made by<i class="fa-solid fa-heart"></i> Fatima Laiba</p>
+</section>
+
+        <!-- The rest of code... -->
+
+        
+         </section>
+    
+    
+        <script>
+            var navlinks = document.getElementById("nav_links");
+            function showMenu() {
+                navlinks.style.right = "0";
+            }
+        
+            function hideMenu() {
+                navlinks.style.right = "-200px";
+            }
+        </script>
+    </body>
+    </html>
